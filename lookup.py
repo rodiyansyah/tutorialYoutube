@@ -4,7 +4,7 @@ import argparse
 def Main():
     parser = argparse.ArgumentParser()
     parser.add_argument('word', help='word to search')
-    parser.add_argument('fname', help('file name to search'))
+    parser.add_argument('fname', help='file name to search')
 
     args = parser.parse_args()
 
